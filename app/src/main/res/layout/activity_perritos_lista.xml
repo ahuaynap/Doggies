@@ -1,0 +1,29 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/layout_search"
+    android:visibility="invisible">
+    <EditText
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSearch"/>
+
+    <Button
+        android:id="@+id/btnSearch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar" />
+</LinearLayout>
+
+<ListView
+    android:id="@+id/simpleListView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:divider="@color/colorPrimary"
+    android:dividerHeight="1dp"
+    android:footerDividersEnabled="false"
+    />
+</GridLayout>
